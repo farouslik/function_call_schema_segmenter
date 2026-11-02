@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "farouslik-kernelopt_jd360"
+name = "farouslik-function_call_schema_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对AI 芯片算子优化工程师·函数调用的 schema 校验相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://farouslik.github.io"
-Repository = "https://github.com/farouslik/kernelopt_jd360"
-Issues = "https://github.com/farouslik/kernelopt_jd360/issues"
+Repository = "https://github.com/farouslik/function_call_schema_segmenter"
+Issues = "https://github.com/farouslik/function_call_schema_segmenter/issues"
 
 [project.scripts]
-kernelopt_jd360 = "kernelopt_jd360:main"
+function_call_schema_segmenter = "function_call_schema_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd360"]
+py-modules = ["function_call_schema_segmenter"]
